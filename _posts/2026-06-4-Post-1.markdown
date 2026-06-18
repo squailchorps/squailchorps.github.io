@@ -1,0 +1,38 @@
+---
+layout: single
+title:  "Week 3- Project Start and Updates"
+date:   2026-06-4 16:47:16 -0600
+categories: cspb-3112
+---
+Here is my first post for week 3 (week 2 was a nothing burger, just site setup work)
+
+## What did you do last week?
+
+This past week was a lot of recovery for me from being sick after a very long hike, so not too much got done! 
+I have been figuring out what to do with the index.html on the website and getting unity figured out on my 
+computer. I was originally going to push to github, but I can instead use Unityhub to host my repository for 
+easier access and move over some code to my .io page for posting purposes. When it comes to the website, I 
+decided on learning jekyl so that I could make it much easier to work with than using html. I also really 
+like the themes to jekyl, and seeing what other students have done made me want to try it, even from just a 
+purely esthetic choice. 
+
+## What do you plan to do this week?
+
+This week, I plan to get unity set up on my machine and get all the tutorials started or finished by next 
+Friday. I also plan on trying to get jekyl on my website and organized so that I can get the website looking 
+great! If I push past both of these deadlines, I will start playing around in unity and figuring out the 
+syntax to C#.
+
+## Are there any impediments in your way?
+
+The only impediment I have at the moment is my own slowness. I have been dragging my feet a bit and my new 
+job is now ramping up, which leads to me being a bit sluggish on the homework side. I will be putting into 
+my calendar all my times to work on these tasks above to make sure I have physical reminders of what needs 
+to be done. 
+
+## Reflection on the process you used last week, how can you make the process work better?
+
+The number one thing is to not get sick and hike 10 miles on a poptart, so that should help a lot. Also 
+making sure to utilize the calendar like I mentioned above. Just trying to go at things without reminders 
+or physical items that point to doing the work leads me to have time blindness and become complacent, 
+leading to a miss of dates and needing to cram at the end. We are going to change that this week! 

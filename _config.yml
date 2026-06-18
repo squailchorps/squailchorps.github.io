@@ -18,24 +18,30 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Project Website
+title: "Gregor MacGregor's Portfolio Website"
+subtitle: "RCA Specialist, Educator, Designer"
 email: gregor.macgregor.design@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This site holds my personal work and projects. 
+  The current main project is for my project in CSPB 3112 - Professional Development in Computer Science. 
+  I will post updates weekly to this site based on my progress on my project. 
+  Join me on my joureny to expand my knowledge and ability in CS!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://squailchorps.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "squailchorps/squailchorps.github.io"
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "neon"
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-  - Jekyll-include-cache
+  - jekyll-include-cache
 
+Include:
+    -_pages
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -55,3 +61,20 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+#   site content
+defaults:
+  - scope:
+      path: ""
+    values:
+      author_profile: true
+author: 
+    name   : "Gregor MacGregor"
+    avatar : "/assets/images/greg-image.jpg"
+    bio    :  >-
+        "I majored in Technical Theater Set Design and Technical Direction from Texas Tech University, 
+        and then transitioned into a Post-Bach in Computer Science with Colorado University of Boulder. 
+        I have been a carpenter, set-designer, technical director, teacher, management consultant, 
+        and RCA specialist throughout my life."
+    

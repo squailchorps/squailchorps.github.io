@@ -1,0 +1,42 @@
+---
+layout: single
+title:  "Week 5 - Website work"
+date:   2026-06-18 12:47:16 -0600
+categories: cspb-3112
+---
+Here is my post for week 5. Mostly focused on getting this website up and running in a nice looking format!
+
+## What did you do last week?
+
+I spent much of my time this week getting to know and understand how to utilize jekyll themes and syntax(?). 
+i went with the minimal mistakes theme after trying a few (Cayman, and Minima). The things that were really 
+difficult were how to get everything working. I had been used to using the universities IDE that had everything 
+set up for us. I ended up needing to understand so much this week and spent more hours than I had hoped getting 
+my website up and running. The big road blocks were how to utilize ruby/jekyll together, how to install them, how
+to push to git from my laptop and computer, how to make pages, how to get the pages organized, how to add media, 
+and how to organize the entire site with the different file types. While my site is not perfect, I am really happy
+with where it ended up! I was even able to categorize my posts based on the project type so that if you go to that 
+project, it shows what posts were for that project! I really like that functionality. However, due to all this work
+on my website, I did not spend time on unity. I need to do some extra work this next week to finish my test project
+get it working, and then learn how to upload the Unity WebGL game properly to GitHub. I am already seeing that I will
+likely need to upload it to itch.io first since the unity demo could exceed GitHub's file size limitations.
+
+## What do you plan to do this week?
+
+This weeks goal is to finish the Flappy Bird Unity Project from beofre, get it uploaded to itch.io, then posted on my website.
+From there, I will begin working on the pseudocode and research for mastermind, including pictures of drawings, code snippits,
+and research articles and exmaples of the game for the next post. 
+
+## Are there any impediments in your way?
+
+The impediments I feel I am expecting is mainly work related. I hold two jobs, one with the university, and one with a consulting
+company. The consulting company is about to get a massive wave of work, and my university job is currently in a huge upward tick in
+work due to end of fiscal year spending. This has alreadt resulted in some missed days due to amount of hours I am working, but 
+I am confident that this week will be MUCH less busy with the holiday coming up and th fiscal year end conslidation. 
+
+## Reflection on the process you used last week, how can you make the process work better?
+
+Generally, the same thing should still try to apply this week from alst week. I want to try and prioritize shorter sessions of work.
+While I am generally great with long sessions, it is not sustainable to have sudden bursts of work. This week fell through a little
+but I was able to get 2 days of 2 hours, and then 1 day of around 4-5. Thats still not great, and would want to ideally have those 
+hours started earlier in the week rather than cramming mostly at the end of the week when its time to post. 

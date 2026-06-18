@@ -1,0 +1,45 @@
+---
+layout: single
+title:  "Week 4 - Unity and Coding Practice"
+date:   2026-06-11 16:47:16 -0600
+categories: cspb-3112
+---
+Here is my post for week 4. I am proud of my progress this week with Unity and coding work! 
+
+## What did you do last week?
+
+Last week was spent getting Unity, VScode 2026, and UnityHUB working on my setup. 
+So far, I have achieved everything and more! I was able to start diving into unity and work on understanding 
+the interfaces as well as starting to build a small game using a tutorial. The tutorial is meant to teach 
+you the basics of each part of unity, and results in a working Flappy Bird prototype. Once it is finished 
+I will post it here for others to play with if they want. It isn’t my project, but at least getting to the 
+point of adding scripts to gameobjects and being able to assign attributes is great practice in starting! 
+As a side note, I utilized the Leetcode questions that were posted in thread @19 (in piazza...not posted here) to practice with C#, and 
+bought a game to practice coding with called The Farmer Was Replaced (give it a look, its very fun!). 
+
+![The Splash Screen for The Farmer Was Replaced](/assets/images/farmer.jpg)
+
+
+These have been helping me code more often and get back into the coding problem solving mindset, rather 
+than the math and theory mindset I have been in for the past year.
+## What do you plan to do this week?
+
+ I plan to finish out the tutorial and post it. It only has about 20 minutes left on it. 
+ Afterwards, I will learn to post and push it to unityhub and work on getting it onto my website. 
+ From there, I will be working on my website to get it prettied up and working. If I have further 
+ time from there, I will start playing with the logic to Mastermind and write some pseudocode down.
+## Are there any impediments in your way?
+
+Truly the only impediments are my work. The ECEE procurement is taking a lot more time do to an 
+influx of orders which is leading to longer days than expected. As well, I am having a lot of body 
+pain from a medical issue I have which is sapping my energy. Luckily, I am passionate about this project 
+and once I get started I usually keep going through for the day. It’s just the getting started part that 
+can be difficult sometimes!
+## Reflection on the process you used last week, how can you make the process work better?
+
+ I think overall I did good. The issue is I only dedicated 2 days. While those 2 days were a lot of my 
+ work and practice and resulted in me hitting my goals, it could be more structured with set times to be 
+ working. I think this week I am going to set 3 days to work on my project and spend 2 hours each day. 
+ This will hopefully give me a break day and a work day so that I am not immediately front loading my work 
+ and then not internalizing or practicing what I am working on for another 5 days. Lets see how that treats 
+ me this week!
