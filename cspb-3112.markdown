@@ -1,9 +1,21 @@
 ---
 layout: archive
 title: "CSPB 3112 Project"
-permalink: /about/resume
+permalink: /projects/cspb-3112/
 ---
 
-This is the latest copy of my resume used in a recent job interview. Feel free to download it! 
+## Overview
 
-[Download my Resume](/assets/downloads/resume.pdf)
+This project is from my class 3112: Professional Development in Computer Science. The main purpose of this course was to practice practical coding 
+to allow ourselves a chance to make something, rather than constant theory. The project I chose to make, since
+I feel that I am still a very green coder was to utilize Unity to make a puzzle game. The puzzle specifically was a 
+puzzle called "Master Mind".
+
+Below are my blog posts that I updated each week on this project.
+
+## Updates:
+
+{% assign posts = site.posts | where_exp: "post", "post.categories contains 'cspb-3112'" %}
+{% for post in posts %}
+  {% include archive-single.html %}
+{% endfor %}
