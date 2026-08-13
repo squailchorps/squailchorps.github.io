@@ -14,7 +14,8 @@ puzzle called "Master Mind".
 Below are my blog posts that I updated each week on this project.
 
 ## Updates:
-{% assign posts = site.posts | where: "categories", "cspb-3112" %}
+
+{% assign posts = site.posts | where_exp: "post", "post.categories contains 'cspb-3112'" %}
 {% for post in posts %}
   {% include archive-single.html %}
 {% endfor %}
