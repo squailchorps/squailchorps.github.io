@@ -1,0 +1,13 @@
+---
+layout: single
+title:  "Week 12 - Project Completion"
+date:   2026-08-06 12:47:16 -0600
+categories: cspb-3112
+---
+Here is my post for week 11:
+
+it is done! I got the whole thing to work with 5 total guesses and 4 total colors, restart function, and letting you know that you won or lost. The link is here : [https://squirrelchips.itch.io/mastermind](https://squirrelchips.itch.io/mastermind)
+
+I am really happy with how it went, but am still wanting more. I dont know if I would have time to add another 2 colors and expand it to 10 attempts, but i can try! It also is very basic looking. It is not pretty, there are no effects, sound effects, or anything to it, it is just a funcitonal demo of Mastermind at a basic level. Even though it is simple and stripped down, I am so happy it ended up working out. I feel a lot better having worke don the UI now and getting everything working on it, but I see where I could have done things better. For example, I made everything in my game logic and sumbit button since that controlled everything, but I could have had seperate fucntionality in different pieces (buttons, UI elements, score keeping, etc.) in seperate game objects and linked them through C# rather than the inspector. The if statements and for loops I had could have absolutely been functions rather than these messy if/if else statements. I see a lot of things I can improve on, but am still proud of what I have created!
+
+At this point, the only thing to finish up is the write up on the project itself. Unless anyone thinks I should expand for the last week and see if I can get something working before the end. Let me know your thoughts and if it was fun to play! Always looking for feedback or ideas :) 

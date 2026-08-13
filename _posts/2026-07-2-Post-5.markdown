@@ -1,0 +1,65 @@
+---
+layout: single
+title:  "Week 7 - Mid-Semester check in"
+date:   2026-07-02 12:47:16 -0600
+categories: cspb-3112
+---
+This week was a project check in, which I have provided below:
+
+## Overview:
+
+Thus far, I have installed and implemented Unity onto my system and created a working demo. The demo is a small copy of the game Flappy Bird, that utilized the basics of Unity and how it flows to create something that functions. In the process of making the small test game to learn unity, I learned:
+
+-          How to create and utilize game objects.
+
+o   This includes adding components and altering components.
+
+o   Adding custom scripts
+
+§  These scripts allow for me to add different game objects to another game object and have one object effect another
+
+o   Add collision and differentiate between different rigid bodies (rigid body and rigid body 2-D are two very different things)
+
+-          How to create custom scripts
+
+o   This involved installing VScode and working within the confines of Unities system of Start and Update.
+
+o   Create classes and objects that can be manipulated by Unity in engine rather than just in VScode.
+
+o   How to utilize delta-time to avoid framerate differences for different systems.
+
+o   How to create functions within C#
+
+-          Creating a menu and working with scenes:
+
+o   Divided up into two areas, Menu with clickable buttons, and the actual game.
+
+§  This directly helps me since the game I want to make just utilizes button presses!
+
+This was just what I learned from Unity and the guide I followed. I added the menu system, out of bounds, and game over screen with retry myself using what I learned from the tutorial I followed.
+
+From the unity work, I created a first working idea of the game Master Mind in Jupyter Notebooks. It allows for someone to play it as a proof of concept to make sure I am understanding the logic correctly for creating a randomly generated code, guessing a certain number of times, giving information like position and correct numbers, and being given a win and lose state.
+
+
+## What to do next:
+
+From here, it’s the hardest part…I have to start adding all of these ideas to unity. This will involve:
+
+-          Getting items into unity that can be interacted with.
+
+-          Master Mind logic
+
+-          Modifiers to allow for unlimited guessed, different colors, more positions, etc.
+
+-          Menu and game state.
+
+While not a lot on the outside, the logic and getting items to be interacted with is going to take a lot of time. I want to make sure that I get plenty of time to work on these, as they could be more difficult than I expect.
+
+
+## Self-Assessment:
+
+This past month has been very difficult. From medical problems and new work, I am definitely adding a lot more to my life than I expected. I have not been nearly as disciplined as I should be, letting myself get distracted or succumbing to the urges to sleep after long days. I cannot take all my credit away though. I have been coding more than I have ever in my off time, have been learning more and more about game design and how it works with my previous degree of technical theater design, and working on coding for fun by playing coding games! These things are already much more than I had accomplished in the past and I am proud of that.
+
+I think the thing I am most proud of so far is building the prototype of Master Mind in Jupyter Notebooks. It took some time, but I was able to figure out the flow of what I needed to do
+
+

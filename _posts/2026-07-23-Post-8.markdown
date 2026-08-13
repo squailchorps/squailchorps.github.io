@@ -1,0 +1,27 @@
+---
+layout: single
+title:  "Week 10 - Strugles return"
+date:   2026-07-23 12:47:16 -0600
+categories: cspb-3112
+---
+Here is my post for week 10:
+
+## What did you do last week?
+
+This week did not go as well as I had hoped. I was able to figure out a structure for how to layout the buttons, but it took some time. I had originally worked on spawning the buttons each time you guessed and deactivating the other buttons. It worked, but it created an issue where I could only spawn one set of buttons and it would be a copy of the original rather than a new set of buttons. I instead decided to spawn all the buttons at once and have them uninteractable. this allowed me to have you only start on the left and work your way to the right as you clicked submit. This is where my main issues came about...I was able to get everything working, but by having the items in groups, it created a unique problem of having to tag each button set with its indicators and buttons. I ws able to get everything tagged and properly assigned to where the indicators of the correct or wrong guess woudl display, but now it is just saying the buttons dont exist even though the list is populated. i believe this has something to do with how unity sometimes decides to not update inspector fields. I will have to go through, remove each GameObject from the Submit button and make sure that each one works as I think that is the main culprit. Once I get that done, the game officially works and can be played! All that will be needed is UI elements and we will have the basis of the game ready to be played by others! 
+
+
+## What do you plan to do this week?
+
+I plan this week to get the Submit button situation fixed so that the game can run a full round. From there, it will be UI interaction work via scene manager which should be very quick. Once that is done, i get to go through and try and get the game working with custom inputs on number of colors or number of guesses. 
+
+
+## Are there any impediments in your way?
+
+The submit button issue is bothering me a lot, but only because I am too tired from work to understand how to fix it today. Once thats fixed, it feels like it will be smooth sailing to the game being in a playable state! 
+
+
+## Reflection on the process you used last week, how can you make the process work better?
+
+I think this week went fine, but spending more time on some research here and there could prove beneficial. I could see how some people have handled resizing UI elements dynamically depending on input, which is a part of my extra goals towards the end of the project. 
+

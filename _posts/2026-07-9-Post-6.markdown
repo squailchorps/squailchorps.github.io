@@ -1,0 +1,24 @@
+---
+layout: single
+title:  "Week 8 - From Unity to Python"
+date:   2026-07-09 12:47:16 -0600
+categories: cspb-3112
+---
+Here is my post for week 8:
+
+## What did you do last week?
+
+I spent my time porting over the logic from Python into Unity with C#. I hit some pretty big snags as I learned what I was missing. I felt a lot more down as it took a LOT more time than I expected to get my buttons to just change color, but I ended up getting it working in the end after 4 hours of work. I spent today looking up some solutions to tracking colors and position and think I have a decent idea of how to do that, but am still a little worried about breaking something. That leads me perfectly into next week:
+
+## What do you plan to do this week?
+
+Next week, I am wanting to get the buttons tracking what position and color they have and, by using another button, make a guess based on a secret code. This will involve creating a randomized code, tracking the buttons color and position in an array, and displaying the code. The idea is to just get that part working, nothing more, so that I can see that the idea works. As well, I want to look into pushing through Unities Branch Control to see how I can take my stable working idea and change the code without breaking everything. Important to know version control, especially in a practice enviornment.
+
+## Are there any impediments in your way?
+
+No major impediments other than being tired :(
+
+
+## Reflection on the process you used last week, how can you make the process work better?
+
+This week was hard. I felt so down that I was struggling so hard to figure out these items and not giving myself enough grace. I felt myself saying "I know how to make this in Python, why is this so much harder in C#???". It took a lot of effort, research, and help to just get a few lines going. I need to give myself more grace and remmeber that I am learning a new language from already a very green position. I am going to give myself more time for confusion and more space, but I struggle with that in general. It is something I am going to at least try to do this week, but if anyone has any life advice on giving yourself grace, throw it my way! 

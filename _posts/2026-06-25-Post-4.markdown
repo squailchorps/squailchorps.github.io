@@ -1,0 +1,23 @@
+---
+layout: single
+title:  "Week 6 - Python Version of Mastermind"
+date:   2026-06-25 12:47:16 -0600
+categories: cspb-3112
+---
+Here is my post for week 6:
+
+## What did you do last week?
+
+I worked on getting all the code working inside of a jupyter hub enviornment to allow me to see how it works. This was awesome as I thought about it for many nights and finally being able to make it was great! Now, granted, this is in python. I wanted to use a language I understood well enough to try, but I got something working for people to try! This is a proof of concept, as working in unity with it is much different since I can define what keys are allowed to be pressed and wont be working with numbers. The code was surprisingly simple but I believe this is due to me practicing more and undestanding how some of these opperations work in practice, like list comprehension or popping and appending to lists. if you would like to give it a try, you will need to download the notebook here! there are instructions on how to run it in the notebook.
+
+## What do you plan to do this week?
+
+I plan on starting to make this in unity this week. Starting by getting an interface for the game working. Being able to click boxes and change colors to allow it to respond to user input. While porting over all of mastermind would be awesome, I forgot the fact that I have to have things in Unity to be able to interact with. 
+
+## Are there any impediments in your way?
+
+My job has recently increased in work. Originally was only going to be working 20 hours a week, but that has exploded due to the sheer amount of procurement orders coming in due to an increase in students. This has resulted in many more hours working than expected. As well, due to my own disibility, I am struggling a lot with pain and trying to overcome that. While I do not want to have it stop my progress, it is difficult at time to push throuhg and I am trying as muhc as possible to do so! 
+
+## Reflection on the process you used last week, how can you make the process work better?
+
+I absolutely bombed at keeping things to multiple days. I did all the code and work in a day due to sheer time commitment struggles. I haven't really found a good way to manage that time better and have failed for many weeks now to get it working properly

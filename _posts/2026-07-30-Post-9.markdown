@@ -1,0 +1,15 @@
+---
+layout: single
+title:  "Week 11 - It works!"
+date:   2026-07-30 12:47:16 -0600
+categories: cspb-3112
+---
+Here is my post for week 10:
+
+I FINALLY GOT IT ALL WORKING. When you click submit, the buttons colors are checked against the secret code and can accurately display which ones are right, wrong, or right color in the wrong position. I had some struggles where if you had a code that had 1 blue in it, but you input 4 blues, it would say one was right, while the others were all the right color in the wrong position. While this is true, it was not intended, so I ended up counting all the total colors and subtracting one from each total to tell whether or not a color that was already used could be displayed as a yellow or red (yellow meaning right color wrong position, red meaning wrong color). this means If you have a csecret code of  yellow,yellow,red,red, and you input, red,red,red,red, it would throw back at you red red, green green, showing that there are only 2 reds.
+
+As well, I had a funny issue with this code where I was accidentally decrementing my count of the colors before checking anything. I described it to my wife like this: “You go to the grocery store to find a specific amount of a type of chips. You see one bag of chips, walk up to that bag, throw the bag behind you, then ask where are all the chips?”.
+
+Lastly, my issue of the Indicators not tracking the buttons properly was due to me assigning the buttons from the first button group into the submit button, meaning it was only tracking those buttons. I instead overrode that by going through and pulling the button group children buttons (GetComponentsInChildren,button_logic>(); ) to grab the script for each button and add it to a list to check. That way, each time the submit button is clicked, it pulls the next groups buttons to look at their color!
+
+Now that everything works properly, all that is left is UI. I was hoping to try and get the amount of buttons and colors be variable, but I want the UI first and to have it playable to see if the other options are viable with what I have and hopefully dont result in a complete rewrite.

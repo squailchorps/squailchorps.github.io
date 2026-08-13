@@ -1,0 +1,81 @@
+---
+layout: single
+title:  "Week 9 - Strugles turning into payoffs!"
+date:   2026-07-16 12:47:16 -0600
+categories: cspb-3112
+---
+Here is my post for week 9:
+
+## What did you do last week?
+
+I feel SO much more confident in my progress this week. Previously, I could only get the button to change colors. Now, I have been able to get 4 buttons to be able to change colors while also tracking the color position in a list of 4 colors, generate a random 4 digit code when the game starts, compare the color positions and color choices to the secret code, and display on 4 circles which are the correct color and position, correct color and wrong position, or just wrong color and position. I have a screen shot here to show so far how it looks (even if it is a little crude at the moment. Its meant to work, not look good yet!). Generally, I am really happy with how I progressed. I feel like I am starting to understand how Unity fucntions and how to access methods or attributes to each piece I am adding. Here is the picture and the code for what I have created so far! Even some extra debugging for making sure all the lists were the proper length since I was having issues initializing those. 
+
+using System.Collections.Generic;
+using UnityEngine.UI;
+using UnityEngine;
+using Unity.VisualScripting;
+
+public class game_logic : MonoBehaviour
+{
+    public GameObject secretCode;
+    public List<button_logic> buttonList = new List<button_logic>() { };
+    List<int> currentColorPositions = new List<int>();
+    List<int> secretCodePull = new List<int>();
+    public GameObject submit;
+    public List<GameObject> colorIndicators = new List<GameObject>() { };
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        secretCodePull = secretCode.GetComponent<CodeGen>().secretCode;
+        //Debug.Log("game_logic Start ran, secretCodePull count: " + secretCodePull.Count);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void checkColorAgainstSecretCode()
+
+    {
+        Debug.Log("buttonList.Count: " + buttonList.Count);
+        Debug.Log("colorIndicators.Count: " + colorIndicators.Count);
+        Debug.Log("secretCodePull.Count: " + secretCodePull.Count);
+        currentColorPositions.Clear();
+        for (int i = 0; i < buttonList.Count; i++)
+        {
+            
+            currentColorPositions.Add(buttonList[i].colorPosition);
+
+            if (currentColorPositions[i] == secretCodePull[i])
+            {
+                colorIndicators[i].GetComponent<Image>().color = Color.green;
+            }
+            else if (secretCodePull.Contains(currentColorPositions[i]) == true)
+            {
+                colorIndicators[i].GetComponent<Image>().color = Color.yellow;
+            }
+            else
+            {
+                colorIndicators[i].GetComponent<Image>().color = Color.red;
+            }
+        }
+        //Add in the check against secretCode.
+    } 
+}
+
+
+## What do you plan to do this week?
+
+This week will be spent figuring out the specific way I want to give feedback to players. Do i have multiple sets of buttons ready for players to click with indicators for correct guesses below each set of buttons? Do I spawn new buttons each time and make the others unclickable? As well, I want to be able to add the fail and win states, and take away some hard coded numbers to see how it works, but that might be a bit too much for this week and will be a next week item. 
+
+## Are there any impediments in your way?
+
+None that I can see at the moment, besides being tired, but we all feel that right?
+
+
+## Reflection on the process you used last week, how can you make the process work better?
+
+I did much better with time blocking this week, spending wednesday and thursday to work through and get coding done. I spent about 3-4 hours total, with some extra research time learning things on my own. I want to try and expand it to 3 days with only 1-2 hours each to see how that feels, but I can easily see myself either doing too much or too little. Its going to be a nice test that I think will work, but I need to be cognisent of my time management. Maybe use a Youtube video in the bakcground with set breaks? Ill test that out too! 
